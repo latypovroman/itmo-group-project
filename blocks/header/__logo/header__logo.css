@@ -1,4 +1,31 @@
 .header__logo {
   margin-right: 135px;
-  flex: none;
+  height: 54px;
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  .header__logo {
+    margin-right: 75px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header__logo {
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .header__logo {
+    height: 32px;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header__logo {
+    height: 24px;
+  }
 }

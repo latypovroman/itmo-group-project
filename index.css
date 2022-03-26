@@ -4,7 +4,12 @@
 @import url(./blocks/page/page.css);
 
 @import url(./blocks/header/header.css);
-@import url(./blocks/header/__nav-list/header__nav-list.css);
-@import url(./blocks/header/__nav-link/header__nav-link.css);
 @import url(./blocks/header/__logo/header__logo.css);
-@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__burger-link/header__burger-link.css);
+
+@import url(./blocks/logo/__image/logo__image.css);
+@import url(./blocks/logo/__link/logo__link.css);
+
+@import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/__nav-link/menu__nav-link.css);
+@import url(./blocks/menu/__nav-list/menu__nav-list.css);
