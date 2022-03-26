@@ -2,6 +2,30 @@
   padding: 92px 165px 124px;
   background-image: url(../../images/background.png);
   background-position-y: -80px;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: end;
+}
+
+@media screen and (max-width: 1150px) {
+  .lead {
+    padding: 58px 58px 100px 39px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    justify-content: start;
+    background-image: url(../../images/background-reverse.jpg);
+
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead {
+    padding: 30px 16px;
+    background-size: cover;
+    background-position-y: center;
+  }
 }

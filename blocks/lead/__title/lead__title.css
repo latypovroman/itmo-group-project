@@ -7,3 +7,10 @@
   color: white;
   font-weight: 400;
 }
+
+@media screen and (max-width: 550px) {
+  .lead__title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
