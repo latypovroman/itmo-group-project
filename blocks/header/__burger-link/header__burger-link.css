@@ -1,0 +1,14 @@
+.header__burger-link {
+  display: none;
+  position: absolute;
+  background-image: url(../../../images/burger-header.svg);
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 830px) {
+  .header__burger-link {
+    display: block;
+    position: static;
+  }
+}
