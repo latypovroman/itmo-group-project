@@ -1,0 +1,5 @@
+.lead__container {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+}

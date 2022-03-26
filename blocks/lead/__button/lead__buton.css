@@ -1,0 +1,20 @@
+.lead__buton {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 350px;
+  height: 60px;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 550px) {
+  .lead__buton {
+    width: 288px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
