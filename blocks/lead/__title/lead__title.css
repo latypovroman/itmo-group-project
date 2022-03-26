@@ -1,0 +1,9 @@
+.lead__title {
+  font-family: "Open Sans";
+  margin: 0 0 12px 0;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: 0.1px;
+  color: white;
+  font-weight: 400;
+}

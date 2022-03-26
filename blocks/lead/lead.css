@@ -1,0 +1,7 @@
+.lead {
+  padding: 92px 165px 124px;
+  background-image: url(../../images/background.png);
+  background-position-y: -80px;
+  display: flex;
+  justify-content: end;
+}

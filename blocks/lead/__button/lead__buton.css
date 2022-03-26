@@ -1,0 +1,11 @@
+.lead__buton {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 350px;
+  height: 60px;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  font-weight: 600;
+}
