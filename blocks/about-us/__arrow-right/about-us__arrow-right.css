@@ -1,0 +1,8 @@
+.about-us__arrow-right {
+  width: 36px;
+  height: 36px;
+  background: url(../../../images/arrow-right.svg) no-repeat;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}

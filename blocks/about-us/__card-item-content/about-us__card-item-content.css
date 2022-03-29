@@ -1,0 +1,20 @@
+.about-us__card-item-content {
+  max-width: 308px;
+  margin: 0 auto;
+  padding: 20px 0 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .about-us__card-item-content {
+    padding-bottom: calc(20px + (30 - 20) * (100vw - 768px) / (1440 - 768));
+    max-width: calc(290px + (308 - 290) * (100vw - 768px) / (1440 - 768));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about-us__card-item-content {
+    padding-top: calc(16px + (20 - 16) * (100vw - 320px) / (768 - 320));
+    padding-bottom: calc(16px + (20 - 16) * (100vw - 320px) / (768 - 320));
+    max-width: calc(256px + (290 - 256) * (100vw - 320px) / (768 - 320));
+  }
+}

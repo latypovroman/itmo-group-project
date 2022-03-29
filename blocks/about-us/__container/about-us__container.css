@@ -1,0 +1,19 @@
+.about-us__container {
+  margin: 0 auto;
+  max-width: 1262px;
+  padding-bottom: 101px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .about-us__container {
+    padding-bottom: calc(81px + (101 - 81) * (100vw - 768px) / (1440 - 768));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about-us__container {
+    padding-bottom: calc(54px + (81 - 54) * (100vw - 320px) / (768 - 320));
+  }
+}
