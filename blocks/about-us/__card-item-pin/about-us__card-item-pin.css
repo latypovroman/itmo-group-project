@@ -1,0 +1,18 @@
+.about-us__card-item-pin {
+  width: 29.6px;
+  height: 40.09px;
+  background: url(../../../images/aboutus-pin.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -14.16px;
+  right: -7.91px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about-us__card-item-pin {
+    width: calc(23.68px + (29.6 - 23.68) * (100vw - 320px) / (768 - 320));
+    height: calc(30.72px + (40.09 - 30.72) * (100vw - 320px) / (768 - 320));
+    top: calc((-11.36px) + ((-14.16) - (-11.36)) * (100vw - 320px) / (768 - 320));
+    right: calc((-5.84px) + ((-7.91) - (-5.84)) * (100vw - 320px) / (768 - 320));
+  }
+}

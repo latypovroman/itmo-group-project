@@ -1,0 +1,10 @@
+.about-us__button-change_right {
+  bottom: 298px;
+  right: 95px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .about-us__button-change_right {
+    right: calc(20px + (95 - 20) * (100vw - 1280px) / (1440 - 1280));
+  }
+}

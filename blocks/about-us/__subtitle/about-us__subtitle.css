@@ -1,0 +1,28 @@
+.about-us__subtitle {
+  margin: 30px auto 0;
+  max-width: 907px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .about-us__subtitle {
+    font-size: calc(14px + (18 - 14) * (100vw - 768px) / (1440 - 768));
+    line-height: calc(20px + (30 - 20) * (100vw - 768px) / (1440 - 768));
+    max-width: calc(690px + (907 - 690) * (100vw - 768px) / (1440 - 768));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about-us__subtitle {
+    font-size: calc(12px + (14 - 12) * (100vw - 320px) / (768 - 320));
+    line-height: calc(16.34px + (20 - 16.34) * (100vw - 320px) / (768 - 320));
+    max-width: calc(288px + (690 - 288) * (100vw - 320px) / (768 - 320));
+    margin-top: calc(12px + (30 - 12) * (100vw - 320px) / (768 - 320));
+  }
+}

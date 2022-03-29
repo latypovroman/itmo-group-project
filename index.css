@@ -19,3 +19,23 @@
 @import url(./blocks/lead/__title/lead__title.css);
 @import url(./blocks/lead/__subtitle/lead__subtitle.css);
 @import url(./blocks/lead/__button/lead__buton.css);
+
+@import url(./blocks/about-us/about-us.css);
+@import url(./blocks/about-us/__container/about-us__container.css);
+@import url(./blocks/about-us/__title/about-us__title.css);
+@import url(./blocks/about-us/__subtitle/about-us__subtitle.css);
+@import url(./blocks/about-us/__card-list/about-us__card-list.css);
+@import url(./blocks/about-us/__card-item/about-us__card-item.css);
+@import url(./blocks/about-us/__card-item-content/about-us__card-item-content.css);
+@import url(./blocks/about-us/__card-item-time/about-us__card-item-time.css);
+@import url(./blocks/about-us/__card-item-title/about-us__card-item-title.css);
+@import url(./blocks/about-us/__card-item-text/about-us__card-item-text.css);
+@import url(./blocks/about-us/__card-item-pin/about-us__card-item-pin.css);
+@import url(./blocks/about-us/__slider-buttons/about-us__slider-buttons.css);
+@import url(./blocks/about-us/__button-slider/about-us__button-slider.css);
+@import url(./blocks/about-us/__button-slider/_active/about-us__button-slider_active.css);
+@import url(./blocks/about-us/__button-change/about-us__button-change.css);
+@import url(./blocks/about-us/__button-change/_left/about-us__button-change_left.css);
+@import url(./blocks/about-us/__button-change/_right/about-us__button-change_right.css);
+@import url(./blocks/about-us/__arrow-left/about-us__arrow-left.css);
+@import url(./blocks/about-us/__arrow-right/about-us__arrow-right.css);
