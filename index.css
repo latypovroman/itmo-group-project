@@ -39,3 +39,11 @@
 @import url(./blocks/about-us/__button-change/_right/about-us__button-change_right.css);
 @import url(./blocks/about-us/__arrow-left/about-us__arrow-left.css);
 @import url(./blocks/about-us/__arrow-right/about-us__arrow-right.css);
+
+@import url(./blocks/projects/projects.css);
+@import url(./blocks/projects/__header/projects__header.css);
+@import url(./blocks/projects/__select/projects__select.css);
+@import url(./blocks/projects/__cards/projects__cards.css);
+@import url(./blocks/projects/__card/projects__card.css);
+@import url(./blocks/projects/__card_open/projects__card_open.css);
+@import url(./blocks/projects/__text/projects__text.css);
