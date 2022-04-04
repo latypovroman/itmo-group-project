@@ -1,20 +1,35 @@
+/* Light 300 */
+@font-face {
+  font-family: 'Open Sans';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/OpenSans-Light.ttf) format("truetype");
+}
+
+/* Regular 400 */
 @font-face {
   font-family: 'Open Sans';
   font-style:  normal;
   font-weight: 400;
-  src: url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+  font-display: swap;
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
 }
 
+/* SemiBold 600 */
 @font-face {
   font-family: 'Open Sans';
   font-style:  normal;
   font-weight: 600;
-  src: url('../fonts/OpenSans-SemiBold.ttf') format("ttf"),
+  font-display: swap;
+  src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
 }
 
+/* Bold 700 */
 @font-face {
   font-family: 'Open Sans';
-  font-style:  bold;
+  font-style:  normal;
   font-weight: 700;
-  src: url('../fonts/OpenSans-Bold.ttf') format("ttf"),
+  font-display: swap;
+  src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
 }
