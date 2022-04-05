@@ -1,0 +1,10 @@
+.projects__arrow_light {
+  padding: 2px 0 0 2px;
+  fill: none;
+  stroke: #fff;
+  transition: all .5s ease;
+}
+
+.rojects__arrow_light:hover {
+  opacity: 70%;
+}

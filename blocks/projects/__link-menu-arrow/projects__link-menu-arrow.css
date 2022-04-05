@@ -1,0 +1,9 @@
+.projects__link-menu-arrow {
+  fill: none;
+  stroke: #fff;
+  transition: all .5s ease;
+}
+
+.projects__link-menu-arrow:hover {
+  stroke:rgba(0, 159, 172, 1);
+}

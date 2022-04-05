@@ -1,0 +1,16 @@
+.projects__link-menu {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: .1px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+.projects__link-menu:hover {
+  color: rgba(0, 159, 172, 1);
+  box-shadow: 0px 2px 0px #009FAC;
+ }

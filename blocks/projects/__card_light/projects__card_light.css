@@ -1,0 +1,15 @@
+.projects__card_light {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "title logo"
+    "title button";
+  grid-column: span 2;
+  background-color: #E0F0FF;
+  width: 100%;
+  background-image: url(/images/Factory.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 16px;
+}

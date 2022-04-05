@@ -14,11 +14,11 @@
   padding: 0;
   outline: none;
   margin: 0 0 20px 0;
-  background-image: url('/images/Select.svg');
+  background-image: url('images/Select.svg');
   background-repeat: no-repeat;
   background-position: right;
   appearance: none;            /* remove arrow        */
   -webkit-appearance: none;    /* remove arrow Chrome */
   -moz-appearance: none;       /* remove arrow FF     */
+  cursor: pointer;
 }
-

@@ -1,0 +1,10 @@
+.projects__arrow_dark {
+  padding: 2px 0 0 2px;
+  fill: none;
+  stroke: rgba(0, 159, 172, 1);
+  transition: all .5s ease;
+}
+
+.projects__arrow_dark:hover {
+  opacity: 70%;
+}

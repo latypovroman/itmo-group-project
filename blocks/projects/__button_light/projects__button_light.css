@@ -1,0 +1,8 @@
+.projects__button_light {
+  background-color: #009FAC;
+  transition: all .5s ease;
+}
+
+.projects__button_light:hover {
+  opacity: 70%;
+}
