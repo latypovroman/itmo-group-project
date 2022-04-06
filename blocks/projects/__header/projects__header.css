@@ -6,6 +6,12 @@
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 40px;
+  margin: 40px 0 0 0;
   padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .projects__header {
+    font-size: 24px;
+  }
 }

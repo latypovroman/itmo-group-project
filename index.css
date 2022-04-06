@@ -43,6 +43,10 @@
 @import url(./blocks/projects/projects.css);
 @import url(./blocks/projects/__header/projects__header.css);
 @import url(./blocks/projects/__select/projects__select.css);
+@import url(./blocks/projects/__menu/projects__menu.css);
+@import url(./blocks/projects/__menu-lists/projects__menu-lists.css);
+@import url(./blocks/projects/__menu-button/projects__menu-button.css);
+
 @import url(./blocks/projects/__cards/projects__cards.css);
 @import url(./blocks/projects/__card/projects__card.css);
 @import url(./blocks/projects/__card_light/projects__card_light.css);
@@ -58,6 +62,7 @@
 @import url(./blocks/projects/__arrow/projects__arrow.css);
 @import url(./blocks/projects/__arrow_light/projects__arrow_light.css);
 @import url(./blocks/projects/__arrow_dark/projects__arrow_dark.css);
+
 @import url(./blocks/projects/__pagination/projects__pagination.css);
 @import url(./blocks/projects/__lists/projects__lists.css);
 @import url(./blocks/projects/__link-menu/projects__link-menu.css);
