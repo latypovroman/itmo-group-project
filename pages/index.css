@@ -38,3 +38,13 @@
 @import url(../blocks/about-us/__button-change/_right/about-us__button-change_right.css);
 @import url(../blocks/about-us/__arrow-left/about-us__arrow-left.css);
 @import url(../blocks/about-us/__arrow-right/about-us__arrow-right.css);
+
+@import url(../blocks/publications/publication/publication.css);
+@import url(../blocks/publications/publication/__image/publication__image.css);
+@import url(../blocks/publications/publication/__title/publication__title.css);
+@import url(../blocks/publications/publication/__authors/publication__authors.css);
+@import url(../blocks/publications/publication/__text/publication__text.css);
+@import url(../blocks/publications/publication/__panel/publication__panel.css);
+@import url(../blocks/publications/publication/__panel-link/publication__panel-link.css);
+@import url(../blocks/publications/publication/__panel_arrow/publication__panel_arrow.css);
+@import url(../blocks/publications/publication/__panel-share/publication__panel-share.css);
